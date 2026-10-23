@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DJ OZI | House & EDM DJ, Munich</title>
+<meta name="description" content="Official website, press kit and inquiries for DJ OZI. a Munich-based house and EDM DJ.">
+<meta property="og:title" content="DJ OZI | House & EDM DJ, Munich">
+<meta property="og:description" content="Mixes, events, press kit and inquiries.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0B0C10">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎧</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Syne:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0B0C10;--panel:#12141D;--cyan:#00F2FE;--blue:#4FACFE;--pink:#FF007F;--text:#F4F4F9;--mute:#8A8F9E;--line:rgba(255,255,255,.1);
+--display:'Syne','Space Grotesk',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,monospace}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--text);font:400 17px/1.65 var(--body);overflow-x:hidden;cursor:none;background-image:radial-gradient(circle at 8% 12%,rgba(0,242,254,.08),transparent 25%),radial-gradient(circle at 92% 45%,rgba(255,0,127,.07),transparent 28%)}
+@media(hover:none){body{cursor:auto}.cur{display:none}}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:var(--cyan);color:#000;padding:8px 14px;z-index:99}
+/* nav */
+nav{position:fixed;inset:0 0 auto;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:calc(14px + env(safe-area-inset-top)) 5vw 14px;backdrop-filter:blur(20px);background:linear-gradient(180deg,rgba(11,12,16,.88),rgba(11,12,16,.48));border-bottom:1px solid rgba(0,242,254,.12);box-shadow:0 10px 40px rgba(0,0,0,.18)}
+.logo{font:800 20px var(--display);letter-spacing:.04em;text-decoration:none;text-shadow:0 0 24px rgba(0,242,254,.5)}
+nav ul{display:flex;gap:28px;list-style:none;padding:0}
+nav ul a{text-decoration:none;color:var(--mute);font-size:15px;transition:color .2s}
+nav ul a:hover{color:var(--cyan)}
+@media(max-width:760px){nav ul{gap:14px}nav ul li:nth-child(n+4){display:none}}
+/* hero */
+.hero{position:relative;min-height:100svh;display:grid;place-items:center;text-align:center;padding:120px 5vw 80px;overflow:hidden;background:radial-gradient(ellipse at center,rgba(18,20,29,.05),var(--bg) 72%)}
+#orb{position:absolute;inset:0;width:100%;height:100%}
+.hero-in{position:relative;pointer-events:none}
+.hero-in>*{pointer-events:auto}
+h1{font:800 clamp(52px,13vw,190px)/.88 var(--display);letter-spacing:-.05em;text-shadow:0 0 30px rgba(0,242,254,.45),0 0 90px rgba(255,0,127,.18);mix-blend-mode:screen}
+.tag{font:400 14px var(--mono);color:var(--mute);margin:26px 0 34px;letter-spacing:.04em}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 30px;border-radius:99px;border:1px solid var(--line);background:rgba(18,20,29,.6);backdrop-filter:blur(12px);color:var(--text);font:500 16px var(--body);text-decoration:none;cursor:none;transition:border-color .25s,box-shadow .25s,background .25s,transform .25s}
+.btn:hover{border-color:var(--cyan);box-shadow:0 0 28px rgba(0,242,254,.3)}
+.btn.main{background:linear-gradient(120deg,var(--cyan),var(--blue));color:#001018;border:0;font-weight:500}
+.btn.main:hover{box-shadow:0 0 40px rgba(0,242,254,.6)}
+.row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.eq{display:inline-flex;gap:3px;align-items:end;height:16px}.eq i{width:3px;background:currentColor;height:30%;animation:eq 0s infinite}
+.on .eq i{animation:eq .7s ease-in-out infinite alternate}.eq i:nth-child(2){animation-delay:.15s!important}.eq i:nth-child(3){animation-delay:.3s!important}
+@keyframes eq{to{height:100%}}
+/* marquee */
+.mq{border-block:1px solid var(--line);overflow:hidden;white-space:nowrap;padding:18px 0;background:var(--panel)}
+.mq div{display:inline-block;font:800 clamp(22px,3.4vw,40px) var(--display);color:transparent;-webkit-text-stroke:1px var(--mute);animation:mq 38s linear infinite}
+.mq span{margin:0 28px}.mq b{color:var(--pink);-webkit-text-stroke:0}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* sections */
+section{padding:clamp(80px,12vw,160px) 5vw;max-width:1280px;margin:auto;position:relative}
+h2{font:800 clamp(34px,5.5vw,76px)/1 var(--display);letter-spacing:-.04em;margin-bottom:48px;max-width:12ch}
+h2::after{content:"";display:block;width:58px;height:4px;margin-top:20px;border-radius:4px;background:linear-gradient(90deg,var(--cyan),var(--pink));box-shadow:0 0 20px rgba(0,242,254,.35)}
+.glass{background:rgba(18,20,29,.7);backdrop-filter:blur(16px);border:1px solid var(--line);border-radius:20px}
+.about{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(30px,6vw,90px);align-items:start}
+@media(max-width:860px){.about{grid-template-columns:1fr}}
+.about p{color:#cfd2dc;max-width:62ch;margin-bottom:1.2em}
+.stats{display:grid;gap:14px}
+.stat{padding:26px 28px;display:flex;justify-content:space-between;align-items:baseline;gap:20px;transition:transform .3s,border-color .3s,box-shadow .3s}
+.stat:hover{transform:translateY(-5px);border-color:rgba(0,242,254,.42);box-shadow:0 18px 40px rgba(0,0,0,.2)}
+.stat b{font:800 clamp(34px,4vw,52px) var(--display);color:var(--cyan)}
+.stat span{color:var(--mute);font-size:15px;text-align:right}
+/* tracks */
+.tracks{display:grid;gap:12px}
+.track{display:grid;grid-template-columns:56px 1fr auto;gap:20px;align-items:center;padding:16px 24px 16px 16px;transition:border-color .25s,transform .25s,box-shadow .25s}
+.track:hover{border-color:rgba(0,242,254,.5)}
+.track:hover{transform:translateX(6px);box-shadow:0 14px 30px rgba(0,0,0,.18)}
+.pb{width:56px;height:56px;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--cyan);display:grid;place-items:center;cursor:none;transition:background .2s,color .2s}
+.pb:hover,.track.on .pb{background:var(--cyan);color:#001018}
+.track h3{font:600 20px var(--display)}
+.track small{color:var(--mute);font-family:var(--mono);font-size:13px}
+.track em{font:400 13px var(--mono);color:var(--mute);font-style:normal}
+.embed{margin-top:36px;border-radius:20px;overflow:hidden;border:1px solid var(--line)}
+.embed iframe{width:100%;height:300px;border:0;display:block}
+/* events */
+.ev{display:grid;grid-template-columns:160px 1fr auto;gap:24px;align-items:center;padding:24px 28px;margin-bottom:12px;border-radius:20px;transition:transform .3s,border-color .3s,box-shadow .3s}
+.ev:hover{transform:translateX(6px);border-color:rgba(255,0,127,.4);box-shadow:0 16px 36px rgba(0,0,0,.2)}
+@media(max-width:700px){.ev{grid-template-columns:1fr;gap:6px}}
+.ev time{font:500 15px var(--mono);color:var(--cyan)}
+.ev h3{font:600 22px var(--display)}
+.ev p{color:var(--mute);font-size:15px}
+.ev .btn{padding:10px 22px;font-size:15px}
+.sold{color:var(--pink);font:500 14px var(--mono)}
+/* press */
+.press{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.press .glass{padding:30px}
+.press h3{font:600 22px var(--display);margin-bottom:12px}
+.press li{color:#cfd2dc;font-size:15.5px;margin:0 0 8px 18px}
+.bio-box{padding:30px;margin-top:16px;color:#cfd2dc}
+.bio-box button{margin-top:16px;padding:10px 20px;border-radius:99px;border:1px solid var(--line);background:none;color:var(--text);cursor:none;font:inherit;font-size:14px}
+.bio-box button:hover{border-color:var(--cyan)}
+/* form */
+form{display:grid;gap:16px;max-width:720px}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:600px){.f2{grid-template-columns:1fr}}
+label{display:grid;gap:6px;color:var(--mute);font-size:14px}
+input,textarea,select{background:var(--panel);border:1px solid var(--line);border-radius:12px;color:var(--text);padding:14px 16px;font:inherit;width:100%;cursor:none}
+input:focus,textarea:focus,select:focus{border-color:var(--cyan);outline:0;box-shadow:0 0 0 3px rgba(0,242,254,.15)}
+textarea{min-height:130px;resize:vertical}
+#fs{color:var(--cyan);font-size:15px;min-height:1.4em}
+#pg{position:fixed;top:0;left:0;height:2px;width:100%;background:linear-gradient(90deg,var(--cyan),var(--pink));transform-origin:0 50%;transform:scaleX(0);z-index:60}
+.ph{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:20px;border:1px solid var(--line)}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.gal div{aspect-ratio:4/5;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(160deg,#12141D,#0B0C10 60%),radial-gradient(circle,var(--pink),transparent);transition:transform .35s,border-color .35s,box-shadow .35s}
+.gal div:hover{transform:translateY(-8px) rotate(-1deg);border-color:rgba(0,242,254,.5);box-shadow:0 22px 44px rgba(0,0,0,.3)}
+.gal div:nth-child(3n+1){background:linear-gradient(200deg,rgba(0,242,254,.25),#12141D 55%)}
+.gal div:nth-child(3n+2){background:linear-gradient(160deg,rgba(255,0,127,.22),#12141D 55%)}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.gal div:hover img{transform:scale(1.06)}
+.gal span{display:grid;place-items:center;height:100%;color:var(--mute);font:13px var(--mono)}
+footer{border-top:1px solid var(--line);padding:50px 5vw calc(50px + env(safe-area-inset-bottom));display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px;color:var(--mute);font-size:15px}
+footer nav,.soc{position:static;display:flex;gap:22px;background:none;border:0;padding:0;backdrop-filter:none}
+.soc a{text-decoration:none}.soc a:hover{color:var(--cyan)}
+/* cursor */
+.cur{position:fixed;left:0;top:0;width:14px;height:14px;margin:-7px;border-radius:50%;background:var(--cyan);pointer-events:none;z-index:99;mix-blend-mode:difference;display:grid;place-items:center;transition:width .25s,height .25s,margin .25s,background .25s;font:500 11px var(--mono);color:#000}
+.cur.big{width:74px;height:74px;margin:-37px;background:var(--cyan);mix-blend-mode:normal}
+.cur.big::after{content:attr(data-t)}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+@media(max-width:760px){nav{padding-left:20px;padding-right:20px}nav ul{gap:10px}nav ul li:nth-child(n+4){display:block}nav ul a{font-size:11px}section{padding-left:20px;padding-right:20px}.hero{padding-left:20px;padding-right:20px}.btn{padding:13px 21px;font-size:14px}}
+</style>
+</head>
+<body>
+<div id="pg"></div>
+<a class="skip" href="#main">Skip to content</a>
+<div class="cur" id="cur" aria-hidden="true"></div>
+
+<nav>
+  <a class="logo" href="#top" id="lg">DJ OZI</a>
+  <ul><li><a href="#about">About</a></li><li><a href="#music">Music</a></li><li><a href="#shows">Shows</a></li><li><a href="#press">Press</a></li><li><a href="#booking">Inquiries</a></li></ul>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="orb" aria-hidden="true"></canvas>
+  <div class="hero-in">
+    <h1 id="hn">DJ OZI</h1>
+    <p class="tag" id="htag">Munich · House / EDM</p>
+    <p class="tag" id="next" style="margin-top:-14px"></p>
+    <div class="row">
+      <button class="btn main" id="heroPlay" data-c="PLAY"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span id="hpl">Play the visualizer</span></button>
+      <a class="btn" href="#booking">Make an inquiry</a>
+    </div>
+  </div>
+</header>
+
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+
+<main id="main">
+<section id="about">
+  <h2 class="rv">House and EDM from Munich.</h2>
+  <div class="about rv">
+    <div id="bio"></div>
+    <div class="stats" id="stats"></div>
+  </div>
+</section>
+
+<section id="music">
+  <h2 class="rv">Music</h2>
+  <div class="tracks" id="tracks"></div>
+  <div class="embed rv" id="embed"></div>
+</section>
+
+<section id="gallery">
+  <h2 class="rv">Gallery</h2>
+  <div class="gal rv" id="gal"></div>
+</section>
+
+<section id="shows">
+  <h2 class="rv">Shows</h2>
+  <div id="events"></div>
+</section>
+
+<section id="press">
+  <h2 class="rv">Press kit</h2>
+  <div class="press rv">
+    <div class="glass"><h3>Equipment</h3><ul><li>Controller: Pioneer DJ DDJ-FLX4</li><li>Headphones: JBL</li><li>Speakers: own speakers available</li></ul></div>
+    <div class="glass"><h3>Profile</h3><ul><li>Based in Munich, Germany</li><li>Style: house and EDM</li><li>About 6 years in music, 2 years DJing</li></ul></div>
+  </div>
+  <div class="glass bio-box rv"><h3 style="font:600 20px var(--display);margin-bottom:12px">Short bio</h3><p id="sbio"></p><button id="cp">Copy short bio</button></div>
+</section>
+
+<section id="booking">
+  <h2 class="rv">Inquiries</h2>
+  <form id="bf" class="rv">
+    <div class="f2"><label>Name<input name="n" required autocomplete="name"></label><label>Email<input type="email" name="e" required autocomplete="email"></label></div>
+    <div class="f2"><label>Event or venue<input name="v"></label><label>Date<input type="date" name="d"></label></div>
+    <label>Type of inquiry<select name="t"><option>Club night</option><option>Festival</option><option>Private event</option><option>Radio or podcast</option><option>Other</option></select></label>
+    <label>Message<textarea name="m" placeholder="City, set length, budget range"></textarea></label>
+    <div class="row" style="justify-content:flex-start"><button class="btn main" type="submit" data-c="SEND">Send request</button><a class="btn" id="wa" data-c="CHAT" target="_blank" rel="noopener" hidden>WhatsApp</a></div>
+    <p id="fs" role="status"></p>
+  </form>
+</section>
+</main>
+
+<footer>
+  <span id="copy"></span>
+  <div class="soc" id="soc"></div>
+</footer>
+
+<script type="application/ld+json" id="ld"></script>
+<script>
+/* ============ EDIT THIS ============ */
+const SITE={
+ name:"DJ OZI",
+ tagline:"Munich · House / EDM",
+ email:"booking@example.com", /* your booking email */
+ whatsapp:"", /* country code + number, e.g. 49xxxxxxxxxx */
+ genres:["House","EDM","Munich"],
+ photo:"Gemini_Generated_Image_mi6bhkmi6bhkmi6b.jpg", /* portrait for the About section, e.g. "img/ozi.webp" */
+ shortBio:"Munich-based DJ OZI has been into music for about six years and started DJing two years ago. Playing house and EDM, DJ OZI mixes energetic sets and organizes his own events in Munich.",
+ bio:["DJ OZI is a Munich-based DJ playing house and EDM. Music has been part of life for about six years, and the last two have been all about DJing and building mixes.","Besides playing sets, DJ OZI organizes events in Munich on his own scale, from outdoor parties to house parties and private nights."],
+ stats:[["4","Shows played"],["2","Countries"],["2.5M","Streams"],["0","Releases"]],
+ tracks:[], /* later: {t:"Title",m:"Mix · 124 BPM · House",l:"5:30",src:"audio/file.mp3"} */
+ embed:"https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdjflariex&color=%2300f2fe&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true", /* SoundCloud / Mixcloud iframe src */
+ gallery:[
+  "Gemini_Generated_Image_mi6bhkmi6bhkmi6b.jpg",
+  "WhatsApp Image 2026-10-14 at 16.46.55.jpeg",
+  "vol3 feel the vibe.jpg"
+ ], /* photo paths, e.g. "img/live1.webp" */
+ events:[
+  {d:"2026-10",c:"Munich",v:"Outside party"},
+  {d:"2026-05",c:"Munich",v:"House party"},
+  {d:"2026-02",c:"Munich",v:"Private party"}], /* optional: u:"ticket link", s:"sold", next:true with a full date like 2026-12-05 */
+ social:[] /* later: ["Instagram","https://..."] */
+};
+/* =================================== */
+const $=s=>document.querySelector(s),RM=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+document.title=SITE.name+" | House & EDM DJ, Munich";
+$('#lg').textContent=$('#hn').textContent=SITE.name;$('#htag').textContent=SITE.tagline;
+$('#bio').innerHTML=SITE.bio.map(p=>`<p>${esc(p)}</p>`).join('');
+$('#stats').innerHTML=SITE.stats.map(s=>`<div class="stat glass"><b>${esc(s[0])}</b><span>${esc(s[1])}</span></div>`).join('');
+if(SITE.photo)$('#stats').insertAdjacentHTML('afterbegin',`<img class="ph" src="${esc(SITE.photo)}" alt="${esc(SITE.name)}">`);
+$('#sbio').textContent=SITE.shortBio;
+$('#mq').innerHTML=(SITE.genres.map(g=>`<span>${esc(g)}</span><b>/</b>`).join('')).repeat(8);
+$('#tracks').innerHTML=SITE.tracks.map((t,i)=>`<div class="track glass rv" data-i="${i}"><button class="pb" data-c="PLAY" aria-label="Play ${esc(t.t)}"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg></button><div><h3>${esc(t.t)}</h3><small>${esc(t.m)}</small></div><em>${esc(t.l)}</em></div>`).join('');
+if(!SITE.tracks.length)$('#tracks').innerHTML='<div class="glass" style="padding:30px;color:var(--mute)">Music coming soon.</div>';
+$('#embed').innerHTML=SITE.embed?`<iframe loading="lazy" title="${esc(SITE.name)} on SoundCloud" src="${esc(SITE.embed)}"></iframe>`:'';
+if(!SITE.embed)$('#embed').remove();
+$('#gal').innerHTML=SITE.gallery.length?SITE.gallery.map((g,i)=>`<div><img loading="lazy" src="${esc(g)}" alt="${esc(SITE.name)} live photo ${i+1}"></div>`).join(''):'<div><span>Photo coming soon</span></div><div><span>Photo coming soon</span></div><div><span>Photo coming soon</span></div>';
+if(SITE.whatsapp){const w=$('#wa');w.hidden=false;w.href='https://wa.me/'+SITE.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent('Hi '+SITE.name+', I would like to make an inquiry.')}
+const up=SITE.events.filter(e=>e.next&&e.d.length===10&&new Date(e.d+'T23:59')>=new Date())[0];
+if(up){const n=Math.ceil((new Date(up.d+'T12:00')-new Date())/864e5);$('#next').textContent='Next show: '+up.c+' · '+(n<=0?'today':n+(n===1?' day':' days')+' to go')}else $('#next').remove();
+const fmt=d=>d.length===7?new Date(d+'-01T12:00').toLocaleDateString('en-GB',{month:'long',year:'numeric'}):new Date(d+'T12:00').toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});
+$('#events').innerHTML=SITE.events.map(e=>`<article class="ev glass rv"><time datetime="${e.d}">${fmt(e.d)}</time><div><h3>${esc(e.c)}</h3><p>${esc(e.v)}</p></div>${e.s==='sold'?'<span class="sold">Sold out</span>':e.u?`<a class="btn" href="${esc(e.u)}" data-c="GO">Get tickets</a>`:''}</article>`).join('');
+$('#soc').innerHTML=SITE.social.map(s=>`<a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a>`).join('');
+$('#copy').textContent=`© ${new Date().getFullYear()} ${SITE.name}. All rights reserved.`;
+$('#ld').textContent=JSON.stringify({"@context":"https://schema.org","@type":"MusicGroup",name:SITE.name,genre:SITE.genres,email:SITE.email,sameAs:SITE.social.map(s=>s[1])});
+
+/* reveal */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+/* cursor */
+const cur=$('#cur');let cx=0,cy=0,tx=0,ty=0;
+addEventListener('pointermove',e=>{tx=e.clientX;ty=e.clientY;mx=(e.clientX/innerWidth-.5)*2;my=(e.clientY/innerHeight-.5)*2});
+(function loop(){cx+=(tx-cx)*.2;cy+=(ty-cy)*.2;cur.style.transform=`translate(${cx}px,${cy}px)`;requestAnimationFrame(loop)})();
+document.addEventListener('pointerover',e=>{const t=e.target.closest('[data-c]');cur.classList.toggle('big',!!t);if(t)cur.dataset.t=t.dataset.c});
+document.querySelectorAll('.btn,.pb').forEach(b=>{b.addEventListener('pointermove',e=>{if(RM)return;const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.18}px,${(e.clientY-r.top-r.height/2)*.18}px)`});b.addEventListener('pointerleave',()=>b.style.transform='')});
+
+/* audio engine: built-in generative demo so the page works with no files */
+const el={};let AC,AN,fd,playing=false,timer,step=0,nextT=0,curTrack=-1,lvl=0,bass=0,mx=0,my=0;
+const TR=[{bpm:124,root:43,sc:[0,3,7,10]},{bpm:126,root:45,sc:[0,5,7,12]},{bpm:128,root:41,sc:[0,3,5,10]}];
+const hz=n=>440*Math.pow(2,(n-69)/12);
+function init(){if(AC)return;AC=new (window.AudioContext||window.webkitAudioContext)();AN=AC.createAnalyser();AN.fftSize=512;AN.smoothingTimeConstant=.82;fd=new Uint8Array(AN.frequencyBinCount);const g=AC.createGain();g.gain.value=.7;g.connect(AN);AN.connect(AC.destination);AC.out=g}
+function kick(t){const o=AC.createOscillator(),g=AC.createGain();o.frequency.setValueAtTime(150,t);o.frequency.exponentialRampToValueAtTime(40,t+.14);g.gain.setValueAtTime(1,t);g.gain.exponentialRampToValueAtTime(.001,t+.4);o.connect(g).connect(AC.out);o.start(t);o.stop(t+.45)}
+function hat(t,v){const b=AC.createBuffer(1,2205,44100),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*(1-i/d.length);const s=AC.createBufferSource(),f=AC.createBiquadFilter(),g=AC.createGain();s.buffer=b;f.type='highpass';f.frequency.value=7500;g.gain.value=v;s.connect(f).connect(g).connect(AC.out);s.start(t)}
+function note(t,n,len,type,vol,cut){const o=AC.createOscillator(),f=AC.createBiquadFilter(),g=AC.createGain();o.type=type;o.frequency.value=hz(n);f.type='lowpass';f.frequency.setValueAtTime(cut,t);f.frequency.exponentialRampToValueAtTime(200,t+len);g.gain.setValueAtTime(vol,t);g.gain.exponentialRampToValueAtTime(.001,t+len);o.connect(f).connect(g).connect(AC.out);o.start(t);o.stop(t+len+.05)}
+function sched(){const T=TR[curTrack],s16=60/T.bpm/4;while(nextT<AC.currentTime+.2){const k=step%16,bar=Math.floor(step/16)%4;
+ if(k%4===0)kick(nextT);if(k%4===2)hat(nextT,.35);if(k%2===1)hat(nextT,.12);
+ if(k%4!==0)note(nextT,T.root+(k%8===6?12:0),s16*1.6,'sawtooth',.28,900+bar*350);
+ if(k===0||k===6||k===10){note(nextT,T.root+24+T.sc[(step/2+bar)%4|0],s16*5,'triangle',.14,3200)}
+ nextT+=s16;step++}}
+async function play(i){init();await AC.resume();if(playing&&curTrack===i)return stop();stop();curTrack=i;const src=(SITE.tracks[i]||{}).src;if(src){if(!el[i]){const a=new Audio(src);a.onended=stop;el[i]=a;AC.createMediaElementSource(a).connect(AC.out)}el[i].currentTime=el[i].currentTime;el[i].play();playing=true;ui();return}step=0;nextT=AC.currentTime+.05;timer=setInterval(sched,40);playing=true;ui()}
+function stop(){clearInterval(timer);Object.values(el).forEach(a=>a.pause());playing=false;ui()}
+function ui(){document.body.classList.toggle('on',playing);$('#heroPlay').classList.toggle('on',playing);$('#hpl').textContent=playing?'Pause':'Play the visualizer';
+ document.querySelectorAll('.track').forEach((t,i)=>t.classList.toggle('on',playing&&i===curTrack))}
+$('#heroPlay').onclick=()=>play(curTrack<0?0:curTrack);
+document.querySelectorAll('.pb').forEach(b=>b.onclick=()=>play(+b.closest('.track').dataset.i));
+
+/* 3D audio-reactive particle orb (canvas, no libraries) */
+const cv=$('#orb'),cx2=cv.getContext('2d'),N=window.innerWidth<700?700:1400;let W,H,DPR;
+const P=[];for(let i=0;i<N;i++){const y=1-i/(N-1)*2,r=Math.sqrt(1-y*y),a=i*2.39996;P.push({x:Math.cos(a)*r,y,z:Math.sin(a)*r,b:i%64})}
+function rs(){DPR=Math.min(devicePixelRatio||1,2);W=cv.clientWidth;H=cv.clientHeight;cv.width=W*DPR;cv.height=H*DPR;cx2.setTransform(DPR,0,0,DPR,0,0)}
+addEventListener('resize',rs);rs();
+let rot=0,vis=true;new IntersectionObserver(e=>vis=e[0].isIntersecting).observe(cv);
+function draw(t){requestAnimationFrame(draw);if(!vis)return;
+ let tl=0,tb=0;if(playing&&AN){AN.getByteFrequencyData(fd);let s=0;for(let i=0;i<8;i++)s+=fd[i];tb=s/8/255;let m=0;for(let i=8;i<fd.length;i++)m+=fd[i];tl=m/(fd.length-8)/255}
+ else{tl=.06+.03*Math.sin(t/900);tb=.04}
+ lvl+=(tl-lvl)*.2;bass+=(tb-bass)*.35;
+ rot+=.0035+lvl*.02;const R=Math.min(W,H)*(.3+bass*.1),cs=Math.cos(rot),sn=Math.sin(rot),tx2=my*.5,cx3=Math.cos(tx2),sx=Math.sin(tx2);
+ cx2.globalCompositeOperation='source-over';cx2.fillStyle='rgba(11,12,16,.28)';cx2.fillRect(0,0,W,H);cx2.globalCompositeOperation='lighter';
+ for(let i=0;i<N;i++){const p=P[i],f=playing?fd[p.b>>1]/255:0,d=1+f*.55+Math.sin(t/700+p.x*4+p.y*3)*.04+bass*.2;
+  let x=p.x*d,y=p.y*d,z=p.z*d;const x1=x*cs+z*sn,z1=-x*sn+z*cs,y1=y*cx3-z1*sx,z2=y*sx+z1*cx3;
+  const k=1/(1.9-z2),px=W/2+x1*R*k*1.6+mx*14,py=H/2+y1*R*k*1.6,sz=(1+f*2.2)*k*1.2*DPR/DPR;
+  const mix=Math.min(1,f*1.6+(z2+1)*.15);cx2.fillStyle=`rgba(${(mix*255)|0},${(242-mix*242)|0},${(254-mix*127)|0},${.25+k*.4})`;
+  cx2.fillRect(px,py,sz,sz)}}
+if(RM){lvl=.05;}requestAnimationFrame(draw);
+
+addEventListener('scroll',()=>{$('#pg').style.transform='scaleX('+scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)+')'},{passive:true});
+/* press bits */
+$('#cp').onclick=async e=>{try{await navigator.clipboard.writeText(SITE.shortBio);e.target.textContent='Copied'}catch{e.target.textContent='Select the text and copy it'}setTimeout(()=>e.target.textContent='Copy short bio',2000)};
+$('#bf').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target),b=`Name: ${f.get('n')}\nEmail: ${f.get('e')}\nEvent/venue: ${f.get('v')}\nDate: ${f.get('d')}\nType: ${f.get('t')}\n\n${f.get('m')}`;
+ location.href=`mailto:${SITE.email}?subject=${encodeURIComponent('Inquiry: '+f.get('t'))}&body=${encodeURIComponent(b)}`;$('#fs').textContent='Your email app should open with the inquiry ready to send.'};
+</script>
+</body>
+</html>
